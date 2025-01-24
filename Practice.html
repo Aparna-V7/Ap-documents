@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Practice Page</title>
+</head>
+<body>
+    <header>
+        <h3>Welcome to the HTML5 Practice  Page</h3>
+        <nav>
+            <a href="#section1">Section 1</a> |
+            <a href="#section2">Section 2</a> |
+            <a href="#section3">Section 3</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="section1">
+            <h2>Introduction</h2>
+            <p>
+                This web page demonstrates the use of all tags of HTML in a single document.
+            </p>
+            <blockquote>
+                "Design is not just what it looks like and feels like.Design is how it works" — Steve  jobs
+            </blockquote>
+            <p>Contact us at: <a href="mailto:e0124048@sriher.edu.in">e0124048@sriher.edu.in</a></p>
+        </section>
+
+        <section id="section2">
+            <h2>Media Content</h2>
+            <figure>
+                <img src="social-media.png" alt="Sample image for audio and video" style="width: 100px;">
+                <figcaption>A sample image for audio and video using <code>&lt;img&gt;</code> tag.</figcaption>
+            </figure>
+            <audio controls>
+                <source src="sample-audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section id="section3">
+            <h2>Tables, Forms, and Lists</h2>
+
+            <table border="1">
+                <caption>Data's about academics</caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>ID</th>
+                        <th>Course</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Meena</td>
+                        <td>18</td>
+                        <td>Chemical Engineering</td>
+                    </tr>
+                    <tr>
+                        <td>Aparna</td>
+                        <td>48</td>
+                        <td>Computer Science Engineering</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="20"></textarea><br><br>
+                <button type="submit">Submit</button>
+            </form>
+
+            <h3>Markup Language</h3>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java Script</li>
+            </ol>
+
+            <h3>Programming Languages</h3>
+            <ul>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>C++</li>
+                <li>Java</li>
+                <li>C</li>
+
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Practice page</p>
+    </footer>
+</body>
+</html>
